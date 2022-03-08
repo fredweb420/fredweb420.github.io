@@ -29,7 +29,7 @@
 
 		function noon(){
 			//19 = 11 here, 21 = 13 here
-			if (hourofday >= 19 && hourofday <= 21){
+			if (hourofday >= 19 && hourofday <= 23){
 				return true;
 			}
 			return false;
@@ -38,7 +38,7 @@
 		function afternoon(){
 			//22 = 14 here, 1 = 17 here
 			//NOTE = A value of 24 is actually 0. 
-			if (hourofday >= 22 && hourofday <=23 || hourofday <= 1){
+			if (hourofday <= 1){
 				return true;
 			}
 			return false;
